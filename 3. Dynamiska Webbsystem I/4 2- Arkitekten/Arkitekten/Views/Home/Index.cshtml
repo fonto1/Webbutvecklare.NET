@@ -1,0 +1,27 @@
+﻿@model ProjectProductViewModel
+
+<form asp-action="add" method="post">
+    <input asp-for="Name" value="" placeholder="Ange ProjektNamn" />
+    <input type="submit" value="Add Project" />
+</form>
+<br />
+
+@if (Model.Name == null)
+{
+    <h3>Login To See Your Projects!</h3>
+} else
+
+@if (Model.AllProjects.Count() == 0)
+{
+    <h3>You have no Projects!</h3>
+} else
+
+@foreach (var items in Model.AllProjects)
+{
+    int index = @items.UserName.IndexOf("@");
+    <a asp-controller="Project" asp-action="List" asp-route-id="@items.ProjectId"><h3>@items.Name</h3></a>
+    <h3>Total Cost: @items.Price.ToString("c")</h3>
+    <h4>*********************</h4>
+}
+
+

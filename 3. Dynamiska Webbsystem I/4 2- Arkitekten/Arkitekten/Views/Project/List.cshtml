@@ -1,0 +1,41 @@
+﻿@model ProjectDatabaseViewModel
+
+<a asp-controller="Home" asp-action="Index">StartPage</a>
+
+<h1>@Model.showproject.Name</h1>
+
+<form asp-action="addProduct" method="post">
+    <input asp-for="ProjectId" style="display:none" />
+    <select asp-for="ProductId">
+        @foreach (var items in @Model.Allprod)
+        {
+            <option value="@items.ProductId">@items.Type, @items.Color, @items.Price.ToString("c")</option>
+        }
+    </select>
+
+    <input type="submit" value="Add Product" />
+</form>
+
+
+
+
+
+
+
+<h2>Project Products</h2>
+@foreach (var items in @Model.showproject.Products)
+{
+
+    <h4>@items.Type, @items.Color, @items.Price.ToString("c")</h4>
+
+}
+
+<br />
+
+<h2>Project Price: @Model.showproject.Price.ToString("c")</h2>
+
+
+
+
+
+
