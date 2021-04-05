@@ -1,0 +1,47 @@
+#content {
+  padding: 90px 150px;
+}
+#logout:hover {
+  cursor: pointer;
+  color: green;
+}
+
+#logout {
+  color: blue;
+}
+
+.hoverLinks:hover {
+  font-size: 30px;
+  color: red;
+}
+
+#swipe {
+  width: 100%;
+}
+/*
+#swipe {
+  text-align: left;
+  animation: left_to_right 3s ease;
+} */
+
+@keyframes left_to_right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+#showtext {
+  visibility: visible;
+}
+
+#showtext:hover {
+  color: rgb(111, 160, 111);
+}
+
+#selectUl {
+  list-style: none;
+  padding: 0;
+}

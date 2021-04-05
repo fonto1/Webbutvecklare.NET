@@ -1,0 +1,40 @@
+﻿
+@model List<Bakery.Models.Product>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a asp-controller="index" asp-action="index">Hem</a>
+    <br />
+   
+    <h2>Följande produkter kan vi erbjuda: </h2>
+    @foreach (var cake in Model)
+    {
+        <br />
+
+        <font color="red">
+            <h4>@cake.Name</h4>
+            <h5>@cake.Description</h5>
+            <h6>@cake.Price</h6>
+        </font>
+
+        @if (cake is Bakery.Models.Bread)
+        {
+            Bakery.Models.Bread bread = cake as Bakery.Models.Bread;
+            <font color="red">
+                <h6>@bread.Size</h6>
+                <h6>@bread.Quantity</h6>
+            </font>
+
+        }
+    }
+
+</body>
+</html>

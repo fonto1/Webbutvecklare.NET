@@ -1,3 +1,8 @@
+Appen är under utveckling. För att starta appen, från terminalen kör:
+
+npm install
+npm start
+
 Välkommen till denna moduls inlämningsuppgift. Vänligen läs Inför uppgiften för tips och tankar, samt förtydliganden i uppgiften, innan att du börjar med denna uppgift.
 
 ## Kravlista

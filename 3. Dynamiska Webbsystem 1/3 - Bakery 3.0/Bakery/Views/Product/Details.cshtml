@@ -1,0 +1,102 @@
+﻿
+
+@model Bakery.Models.Product
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <br />
+    <a asp-controller="Product" asp-action="List">Produkter</a>
+    <br />
+    <br />
+
+    @if (Model is Bakery.Models.Cake)
+    {
+        @if (Model.Review.Count == 0)
+        {
+            <h1>@Model.Name, <font color="Red">*Unrated*</font></h1>
+        }
+
+        else
+
+        {
+            <h1>@Model.Name, <font color="Red">*@Model.Average.ToString("n2")*</font></h1>
+        }
+
+        <h3>@Model.Description</h3>
+        <h3>Pris: @Model.Price.ToString("c")</h3>
+        <h2>Kommentarer:</h2>
+
+        foreach (var items in @Model.Review)
+        {
+            int index = @items.User.IndexOf("@");
+
+            <h4>@items.Time.ToString("dd MMM yyyy HH:mm"), <font color="Red">*@items.Rating*</font></h4>
+            <h4>@items.User.Substring(0, index): @items.Comment</h4>
+            <h6>****************************</h6>
+        }
+
+    }
+
+
+    @if (Model is Bakery.Models.Bread)
+    {
+        Bakery.Models.Bread bread = Model as Bakery.Models.Bread;
+
+
+        @if (@bread.Review.Count == 0)
+        {
+            <h1>@bread.Name, <font color="Red">*Unrated*</font></h1>
+
+        }
+
+        else
+
+        {
+            <h1>@bread.Name, <font color="Red">*@bread.Average.ToString("n2")*</font></h1>
+        }
+
+        <h3>@bread.Description</h3>
+        <h3>Pris: @bread.Price.ToString("c")</h3>
+        <h3>Storlek: @bread.Size</h3>
+        <h3>Antal: @bread.Quantity st</h3>
+        <h2>Kommentarer:</h2>
+
+        foreach (var items in @bread.Review)
+        {
+            int index = @items.User.IndexOf("@");
+
+            <h4>@items.Time.ToString("dd MMM yyyy HH:mm"), <font color="Red">*@items.Rating*</font></h4>
+            <h4>@items.User.Substring(0, index): @items.Comment</h4>
+            <h6>****************************</h6>
+
+        }
+
+    }
+
+    <br />
+    <br />
+
+    <form asp-action="Save" method="post">
+
+
+        <input asp-for="ProductId" style="display:none" />
+        <input value="" placeholder="Kommentera!" asp-for="Review" />
+        <input value="" placeholder="1-5" type="number" min="1" max="5" asp-for="TotalRating" />
+
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>
+
+
+
