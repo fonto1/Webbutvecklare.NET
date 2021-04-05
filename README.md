@@ -1,5 +1,3 @@
-## 100 yrkeshögskolepoäng (Yhp) motsvarar en termins heltidsstudier.
-
 ## År 1
 
 - Webbapplikation MVP, 50 yhp
