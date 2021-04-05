@@ -1,0 +1,29 @@
+﻿
+@model List<Bakery.Models.Product>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <h1>Välkommen till Bageriet</h1>
+        <h2>Följande produkter kan vi erbjuda: </h2>
+        @foreach (var cake in Model)
+        {
+            <br />
+            <h4>@cake.Name</h4>
+            <h5>@cake.Description</h5>
+            <h6>@cake.Price</h6>
+
+        }
+
+
+
+    </body>
+    </html>
