@@ -1,0 +1,29 @@
+#content {
+   padding: 90px 150px;
+}
+
+
+
+li:hover{
+   font-size: 30px;
+}
+
+h1 {
+  width: 100%;
+}
+
+
+h1 {
+  text-align: left;
+  animation: left_to_right 3s ease;
+}
+
+
+@keyframes left_to_right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
