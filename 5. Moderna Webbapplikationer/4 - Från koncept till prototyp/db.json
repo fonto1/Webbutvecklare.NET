@@ -1,0 +1,129 @@
+{
+  "forum": [
+    {
+      "title": [
+        "Vilket hundfoder bör man välja?"
+      ],
+      "author": "user1",
+      "comments": [
+        {
+          "id": 317,
+          "user": "user3",
+          "text": "Pedigree!",
+          "time": "2020-05-27 00:19:56"
+        },
+        {
+          "id": 286,
+          "user": "user2",
+          "text": "Spelar ingen roll, alla smaka likadant =(",
+          "time": "2020-05-27 00:20:20"
+        },
+        {
+          "id": 374,
+          "user": "fon",
+          "text": "Royal canin",
+          "time": "2020-05-27 09:26:11"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": [
+        "Vart hittar man billig hundtrim"
+      ],
+      "author": "fon",
+      "comments": [],
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": 334,
+      "name": "user1",
+      "password": "1",
+      "dogs": [],
+      "loggedIn": false
+    },
+    {
+      "id": 29,
+      "name": "user2",
+      "password": "2",
+      "dogs": [
+        {
+          "id": 58,
+          "name": "non_name",
+          "age": "no_Age",
+          "likes": [],
+          "image": "https://images.dog.ceo/breeds/schipperke/n02104365_4258.jpg"
+        },
+        {
+          "id": 368,
+          "name": "non_name",
+          "age": "no_Age",
+          "likes": [],
+          "image": "https://images.dog.ceo/breeds/terrier-australian/n02096294_3174.jpg"
+        }
+      ],
+      "loggedIn": false
+    },
+    {
+      "id": 284,
+      "name": "user3",
+      "password": "3",
+      "dogs": [],
+      "loggedIn": false
+    },
+    {
+      "id": 225,
+      "name": "fon",
+      "password": "fon",
+      "dogs": [
+        {
+          "id": 158,
+          "name": [
+            "Tippo"
+          ],
+          "age": [
+            "12"
+          ],
+          "likes": [
+            "Äta"
+          ],
+          "image": "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_2153.jpg"
+        },
+        {
+          "id": 309,
+          "name": "non_name",
+          "age": "no_Age",
+          "likes": [],
+          "image": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_382.jpg"
+        }
+      ],
+      "loggedIn": false
+    }
+  ],
+  "currentuser": {},
+  "Events": [
+    {
+      "name": "GrillFest",
+      "date": "2020-05-27",
+      "user": "user1",
+      "src": "./source/friends.jpg",
+      "id": 1
+    },
+    {
+      "name": "Föreläsning online",
+      "date": "2020-05-29",
+      "user": "user3",
+      "src": "./source/tippo.jpg",
+      "id": 2
+    },
+    {
+      "name": "Hundträning Malmö",
+      "date": "2020-05-31",
+      "user": "fon",
+      "src": "./source/friends.jpg",
+      "id": 3
+    }
+  ]
+}
