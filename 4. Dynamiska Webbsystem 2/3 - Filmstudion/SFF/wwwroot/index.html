@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <br /><br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 row">
+                <ul id="studios">
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 row">
+                <div id="oneStudio">
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 row">
+                <form>
+                    <input id="studioName" class="in" type="text" placeholder="Name">
+                    <input id="studioCity" class="in" type="text" placeholder="Location(City)"><br>
+                    <input id="studioCreateButton" type="submit" value="Create Studio">
+                </form>
+            </div>
+
+            <div class="col-12 col-sm-6 row">
+                <form id="edit">
+                    <input id="editStudioName" class="in" type="text" placeholder="EditName">
+                    <input id="editStudioCity" class="in" type="text" placeholder="EditLocation(City)"><br>
+                    <input id="editStudioButton" type="submit" value="Edit">
+                    <input id="deleteStudioButton" type="submit" value="Delete">
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 row">
+                <ul id="movies">
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 row">
+                <div id="oneMovie">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-100"></div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 row">
+                <form>
+                    <input id="movieName" class="in" type="text" placeholder="Name">
+                    <input id="movieRentCount" class="in" type="number" placeholder="RentAmount"><br>
+                    <input id="movieCreateButton" type="submit" value="Create Movie">
+                </form>
+            </div>
+
+            <div class="col-12 col-sm-6 row">
+                <form id="editMovie">
+                    <input id="editMovieRentCount" type="number" placeholder="Change RentAmount">
+                    <select id="selectStudio">
+                    </select>
+                    <br>
+                    <button id="editMovieRentButton">Change RentCount <br> And/Or <br> Add/Remove Studio</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 row">
+                <form>
+                    <select id="TriviaStudio" class="in" type="text" placeholder="Select Studio">
+                    </select>
+                    <select id="TriviaName" class="in" type="text" placeholder="Select Movie"><br>
+                    </select>
+                    <input id="TriviaPoints" type="number" min="1" max="5" placeholder="(1-5)">
+                    <input id="TriviaButton" type="submit" value="Create Trivia">
+                    <input id="TriviaDelButton" type="submit" value="Delete">
+                </form>
+            </div>
+
+
+
+            <div class="col-12 col-sm-6 row">
+                <ul id="trivasReview">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="./js/site.js"></script>
+</body>
+
+</html>

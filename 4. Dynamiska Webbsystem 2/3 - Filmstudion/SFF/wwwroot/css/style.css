@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    
+    
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+
+#edit{
+    display: none;
+}
+
+#studios {
+    padding-inline-start: 0px;
+}
+
+input[type=submit] {
+    margin-bottom: 20px;
+}
+
+
+div {
+    margin-bottom: 5px;
+}
+
+#editMovie{
+    display: none;
+}
+
+#editMovieRentCount{
+    width: 50px;
+}
