@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KGDTf4Rk8NSsFPvcHdI5RsaItI9vkuxuj3296b36X0qNZVeagOM7a5DGI5TifsnzhBMv8xiszC0BF7mMAOQSew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fon\\Desktop\\inlämningar\\Objektorienterad programmering med C#\\2 - Left To Do\\src\\src.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Fon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

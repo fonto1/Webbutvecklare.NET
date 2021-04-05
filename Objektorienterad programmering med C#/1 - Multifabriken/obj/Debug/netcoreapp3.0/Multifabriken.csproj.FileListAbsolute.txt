@@ -1,0 +1,35 @@
+C:\net\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.csprojAssemblyReference.cache
+C:\net\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfoInputs.cache
+C:\net\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfo.cs
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.exe
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.deps.json
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.json
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.dev.json
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.dll
+C:\net\Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.pdb
+C:\net\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.dll
+C:\net\Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.pdb
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.exe
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.deps.json
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.json
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.dev.json
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.dll
+D:\net\multifab_inl\bin\Debug\netcoreapp3.0\Multifabriken.pdb
+D:\net\multifab_inl\obj\Debug\netcoreapp3.0\Multifabriken.csprojAssemblyReference.cache
+D:\net\multifab_inl\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfoInputs.cache
+D:\net\multifab_inl\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfo.cs
+D:\net\multifab_inl\obj\Debug\netcoreapp3.0\Multifabriken.dll
+D:\net\multifab_inl\obj\Debug\netcoreapp3.0\Multifabriken.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.exe
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.deps.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.runtimeconfig.dev.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.dll
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\bin\Debug\netcoreapp3.0\Multifabriken.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.csprojAssemblyReference.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfoInputs.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.AssemblyInfo.cs
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.csproj.CoreCompileInputs.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.dll
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\1 - Multifabriken\obj\Debug\netcoreapp3.0\Multifabriken.genruntimeconfig.cache

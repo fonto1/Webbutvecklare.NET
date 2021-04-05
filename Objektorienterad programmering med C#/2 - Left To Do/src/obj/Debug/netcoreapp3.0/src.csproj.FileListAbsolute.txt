@@ -1,0 +1,46 @@
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.exe
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.deps.json
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.json
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.dev.json
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.dll
+C:\net\LeftToDo\src\bin\Debug\netcoreapp3.0\src.pdb
+C:\net\LeftToDo\src\obj\Debug\netcoreapp3.0\src.csprojAssemblyReference.cache
+C:\net\LeftToDo\src\obj\Debug\netcoreapp3.0\src.AssemblyInfoInputs.cache
+C:\net\LeftToDo\src\obj\Debug\netcoreapp3.0\src.AssemblyInfo.cs
+C:\net\LeftToDo\src\obj\Debug\netcoreapp3.0\src.dll
+C:\net\LeftToDo\src\obj\Debug\netcoreapp3.0\src.pdb
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.exe
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.deps.json
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.json
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.dev.json
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.dll
+D:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.pdb
+D:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.csprojAssemblyReference.cache
+D:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.AssemblyInfoInputs.cache
+D:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.AssemblyInfo.cs
+D:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.dll
+D:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.pdb
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.exe
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.deps.json
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.json
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.dev.json
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.dll
+C:\net\LeftToDo_inl\src\bin\Debug\netcoreapp3.0\src.pdb
+C:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.csprojAssemblyReference.cache
+C:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.AssemblyInfoInputs.cache
+C:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.AssemblyInfo.cs
+C:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.dll
+C:\net\LeftToDo_inl\src\obj\Debug\netcoreapp3.0\src.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.exe
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.deps.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.runtimeconfig.dev.json
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.dll
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\bin\Debug\netcoreapp3.0\src.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.csprojAssemblyReference.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.AssemblyInfoInputs.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.AssemblyInfo.cs
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.csproj.CoreCompileInputs.cache
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.dll
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.pdb
+C:\Users\Fon\Desktop\inlämningar\Objektorienterad programmering med C#\2 - Left To Do\src\obj\Debug\netcoreapp3.0\src.genruntimeconfig.cache

@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+}
+#nav {
+    
+    width: 86%;
+    margin: 20px auto;
+
+}
+
+#mePic{
+    max-width: 100%;
+    float: left;
+}
+
+#profil{
+    margin-top: 25px;
+    margin-left: -30px;
+    
+
+}
+
+#plist {
+    list-style-type: none;
+}
+
+#meCard{
+    margin-bottom: 20px;
+    width: 86%;
+    margin: 0 auto;
+}
+#about, #repos{
+    border-style: groove;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    margin: 20px auto;
+    width: 86%;
+}
+
+#repos li a{
+    list-style: none;
+    color: black;
+    
+}
+  
+
+#port{
+    margin-top: 20px;
+}
+
+a {
+    text-align: center;
+}
+
+#navIcon {
+    color: white;
+}
+
+#jumbotron{
+    padding: 30px;
+    width: 86%;
+    margin: 20px auto;
+}
+
+#jumbotron  a {
+    color:white;
+    
+}
+
+#card1, #card2 {
+    width: 71%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 768px){
+
+    button{
+        z-index: 99;
+    }
+
+   
+
+    #target a {
+        height: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #cont a{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #about, #repos{
+        margin: initial;
+        width: initial;
+        margin-top: 20px;
+        border-style: groove;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-bottom: 20px;
+        padding-right: 45px;
+    
+    }
+
+
+    #card1, #card2 {
+        width: initial;
+        margin: initial;
+    
+    }
+ 
+    #card2{
+        margin-top: 30px;
+    }
+
+    #meCard{
+        margin-bottom: 20px;
+        width: initial;
+        margin: 20 auto;
+    }
+
+    #nav {
+    
+        width: initial;
+    
+    
+    }
+
+    #jumbotron{
+    
+        width: initial;
+        
+    }
+
+}
