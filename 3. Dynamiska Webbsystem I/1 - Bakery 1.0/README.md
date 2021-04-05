@@ -1,5 +1,7 @@
 I denna uppgift ska du skapa din första riktiga webbapplikation i C#, kunden är i detta fallet en bagare som vill lägga upp sina tillgängliga produkter på en hemsida. Kunden vill ha kunna visa sina kontaktuppgifter och tillgängliga produkter. I framtiden ska hemsidan byggas ut med stöd för direktbeställningar från nätet - men nu vill bagaren ha en första sida klar så snart som möjligt!
 
+![bread](https://github.com/fonto1/Webbutvecklare.NET/blob/master/3.%20Dynamiska%20Webbsystem%20I/1%20-%20Bakery%201.0/bread1.jpg?raw=true)
+
 ## Kravspecifikation:
 
 - [x] Lösningen ska bestå av en körbar ASP.NET applikation skriven i C# (netcoreapp2.2 eller netcoreapp3.0).
