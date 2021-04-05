@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px auto 20px;
+  grid-template-rows: 60px auto 60px;
+  grid-template-areas:
+    "tl tc tr"
+    "le ce re"
+    "fl fc fr";
+  /* background-color: blue; */
+}
+
+.header {
+  grid-area: tc;
+  color: black;
+  /* background-color: aqua; */
+}
+
+.leftPanel {
+  grid-row-start: tl;
+  grid-column-start: tl;
+  grid-row-end: fl;
+  grid-column-end: fl;
+  /* border-right: 1px solid silver; */
+  margin-right: 2px;
+  /* background-color: chartreuse; */
+}
+
+.center {
+  grid-area: ce;
+  padding: 15px;
+}
+
+.rightPanel {
+  grid-row-start: tr;
+  grid-column-start: tr;
+  grid-row-end: fr;
+  grid-column-end: fr;
+  /* border-left: 1px solid silver; */
+  margin-left: 2px;
+
+  /* background-color: coral; */
+}
+
+.footer {
+  grid-area: fc;
+}
+
+.plus {
+  color: gray;
+  margin-left: 15px;
+}

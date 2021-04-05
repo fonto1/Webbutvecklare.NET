@@ -1,0 +1,49 @@
+
+.boardRow {
+  width: 100%;
+  display: flex; 
+  flex-wrap: nowrap;
+  /* border: 1px solid red; */
+}
+
+
+.expandedCol {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 40px;
+  margin: 1.5px;
+}
+
+
+.boardCol {
+  width: 100%;
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 40px;
+  margin: 1.5px;
+  /* border: 1px dotted blue; */
+}
+
+
+.topRow {
+  text-align: center;
+  align-self: flex-end;
+  /* background-color: seagreen; */
+}
+
+.leftRow {
+  align-self: center;
+  cursor: pointer;
+  /* background-color: skyblue; */
+}
+
+.topLeft,.leftRow {
+  max-width: 30px; 
+}
+
+.rowText {
+  font-family: "Roboto",sans-serif;
+  font-size: 0.8em;
+}

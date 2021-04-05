@@ -1,0 +1,126 @@
+.cardContainer {
+  width: 140px;
+  height: 60px;
+  display: inline-grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 60% 40%;
+  grid-template-areas:
+    "tl tr"
+    "bl br";
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  margin: 4px;
+  background: rgba(255, 255, 255, 0.863);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.grid-item1 {
+  /* background-color: #b1e6f6; */
+  grid-row-start: tl;
+  grid-column-start: tl;
+  grid-row-end: tl;
+  grid-column-end: tr;
+  white-space: initial;
+}
+
+.textCard {
+  font-size: 15px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+
+.grid-item2 {
+  /* background-color: #e9ddeb; */
+  grid-area: br;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+.grid-item3 {
+  /* background-color: #cee991; */
+  grid-area: bl;
+  display: flex;
+  align-self: flex-end; 
+}
+
+.dot {
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  height: 20px;
+  width: 20px; 
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dotDone {
+  background-color: #3e913e;
+}
+
+.dotUnDone {
+  background-color: #b64747;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.iconRow {
+  /* background-color: yellow; */
+  color:rgb(95, 128, 137);
+  width: 100px;
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  /* display: inline-grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+  "l r"; */
+} 
+
+.iconDate {
+  /* background-color: rgb(36, 23, 219); */
+  font-size: 12px;
+  font-style: italic;
+  margin-right: 8px;
+  /* display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; */
+}
+
+.iconComment {
+  /* background-color: rgb(175, 12, 12); */
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; */
+  display: flex;
+  align-items: flex-end;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.toolTip {
+  font-size: 1.25em;
+  font-family: "Roboto",sans-serif;
+  line-height: 1.6;
+  width: 250px;
+  /* padding: 6px; */
+}
+
+.toolTip span {
+  font-weight: bold;
+}
+
+.noEvent {
+  pointer-events: none;
+}

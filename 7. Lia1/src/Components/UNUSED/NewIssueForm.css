@@ -1,0 +1,12 @@
+.show {
+  visibility: visible;
+}
+
+.noshow {
+  visibility: hidden;
+}
+
+.buttonIcon {
+  margin-right: 6px;
+  font-size: 20px;
+}

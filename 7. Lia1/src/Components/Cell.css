@@ -1,0 +1,64 @@
+.cellContainer {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 40px;
+  margin: 1.5px;
+  /* border: 1px dotted rgb(255, 0, 0); */
+}
+
+.cell {
+  display: flex;
+  background-color:#9eabac56;
+  /* background-color: rgb(230, 230, 230); */
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px;
+  min-height: 30px;
+  
+}
+
+.cellExpand {
+  display: flex;
+  /* background-color: #e4e4e4; */
+  background-color: #9eabac56;
+  border-radius: 4px;
+  align-content: flex-start;
+  padding: 6px 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 155px;
+  min-height: 70px;
+}
+
+.cellColor {
+  /* background-color: #d1d0d0; */
+  /* background-color: rgb(216, 216, 216); */
+  background-color: #9eabac8f;
+  
+}
+
+
+.dotCell {
+  height: 1.2em;
+  width: 1.2em;
+  display: flex;
+  background-color: rgb(95, 128, 137);
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconExpand {
+  cursor: pointer;
+  font-size: 10px;
+  /* background-color: aquamarine; */
+  text-align: right;
+  width: 100%;
+}

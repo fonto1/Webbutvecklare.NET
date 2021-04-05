@@ -1,3 +1,8 @@
+VgavwUC9voBguJRtX3UTeFOTIz8lAmsFfDMnTD4W
+You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
+
+https://api.nasa.gov/planetary/apod?api_key=VgavwUC9voBguJRtX3UTeFOTIz8lAmsFfDMnTD4W
+
 Välkommen till hackathonet! Vi skall i varje grupp bygga ett klientgränsnitt till NASA:s API! Gränssnittets syfte är att på ett snyggt och användarvänligt sätt kunna visa upp bilder ifrån de tre olika ”Rovers” i.e. rymdsonder som finns på Mars. Vi skall endast använda oss av av front-end kod som körs på klientsidan.
 
 ## Förarbete

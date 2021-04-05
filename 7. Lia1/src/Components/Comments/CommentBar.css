@@ -1,0 +1,27 @@
+.commentBar {
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    /* box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); */
+    height: 35px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto",sans-serif;
+
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+}
+.rightSide {
+    display: flex;
+    align-items: center;
+}
+
+.commentIcon {
+    margin-right: 10px;
+}
+
