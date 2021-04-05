@@ -5,11 +5,11 @@ Multifabriken AB vill skapa en konsolapplikation för sina kunder där man kan v
 - [x] Lösningen ska bestå av en körbar konsolapplikation skriven i C# (netcoreapp2.2 eller netcoreapp3.0)
 - [x] När man startar programmet ska man mötas av en meny där alla typer av produkter man kan beställa listas.
 - [x] Man ska kunna göra ett val i menyn med vilken typ av produkt man vill beställa, om man vill lista alla produkter man beställt, eller om man vill avsluta programmet.
-- [x] Produkterna man kan välja mellan är "Bilar", "Godis", "Rör" samt "Havremjölk".
-      När man väljer att skapa en bil ska man ombes att mata in ett registreringsnummer, färg, och ett bilmärke.
-      När man väljer att skapa en godis ombes man att mata in "Smak" samt "Antal".
-      När man väljer att skapa ett rör ombes man att mata in "Diameter" samt "Längd"
-      När man väljer att skapa havremjök ombes man att mata in "Fetthalt" och "Litermängd".
+4. - [x] Produkterna man kan välja mellan är "Bilar", "Godis", "Rör" samt "Havremjölk".
+      - När man väljer att skapa en bil ska man ombes att mata in ett registreringsnummer, färg, och ett bilmärke.
+      - När man väljer att skapa en godis ombes man att mata in "Smak" samt "Antal".
+      - När man väljer att skapa ett rör ombes man att mata in "Diameter" samt "Längd"
+      - När man väljer att skapa havremjök ombes man att mata in "Fetthalt" och "Litermängd".
 - [x] Om man väljer att lista alla produkter ska alla produkter man beställt hittills skrivas ut med den informationen man angett.
 - [x] Om man väljer att avsluta programmet ska programmet helt enkelt sluta köras.
 - [x] Programmet ska bestå av en "Program.cs" fil, en ".csproj" fil samt en fil för varje extra klass du skapar.
