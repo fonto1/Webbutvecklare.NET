@@ -9,6 +9,10 @@ Du borde nogrant fundera igenom strukturen på ditt program och skriva dessa tes
 Karta över museet
 Studera den nedanstående bilden, detta är hur museumet ser ur:
 
+
+![museum](https://github.com/fonto1/Webbutvecklare.NET/blob/master/2.%20Objektorienterad%20programmering%20med%20C%23/3%20-%20Museum/MAP.jpg)
+
+
 ## Kravspecifikation:
 
 - [x] Lösningen ska bestå av en körbar konsolapplikation skriven i C# (netcoreapp2.2 eller netcoreapp3.0)
